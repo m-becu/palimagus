@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="%svelte.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%svelte.head%
+	</head>
+	<style>
+
+		@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&family=Titillium+Web:wght@400;600&display=swap');
+
+		:root {
+			--main-darker: #0c156b;
+			--main-light: #a9b5ff;
+			--main-dark: #3c46e4;
+			--main: #7688ff;
+			--second-dark: #252fc0;
+			--second: #2b43de;
+			--third-darker: #252fc0;
+			--third: #2b43de;
+			--gray-light: #cec6d8;
+			--gray-lighter: #ededed;
+			--gray-dark: #9d9d9c;
+			--gray-darker: #38353f;
+			--gray: #b1b1b0;
+
+			--title-font: 'Josefin Sans', sans-serif;
+			--text-font: 'Titillium Web', sans-serif;
+		}
+
+		*,
+		*::after,
+		*::before {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			width: 100vw;
+			height: 100vh;
+			font-family: var(--text-font);
+		}
+
+	</style>
+	<body>
+		<div>%svelte.body%</div>
+	</body>
+</html>
