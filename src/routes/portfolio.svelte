@@ -11,12 +11,6 @@
             img: "/projects/rots.png",
             types: "long unzoomed",
         },
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
     ];
 </script>
 <main>
@@ -33,6 +27,12 @@
     </ul>
 </main>
 <style>
+
+    @media screen and (min-width: 750px) {
+        li.unzoomed img {
+            zoom: 75% !important;
+        }
+    }
 
     main {
         padding-bottom: 6.5em;
