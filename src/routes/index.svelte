@@ -48,7 +48,7 @@
             </p>
             <a on:click|preventDefault={() => {
                 console.log("✨ Merci d'avoir téléchargé mon CV!");
-                window.open('CV.pdf');
+                window.open('CV_hidden.pdf');
             }} href="/" target="_blank">
                 Télécharger
             </a>
