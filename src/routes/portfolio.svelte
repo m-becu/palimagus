@@ -14,6 +14,7 @@
     ];
 </script>
 <main>
+    <h2>Réalisations</h2>
     <ul>
         {#each projects as project}
             <li class="{project.types}">
@@ -80,6 +81,11 @@
 
     li.unzoomed img {
         zoom: 35%;
+    }
+
+    h2 {
+        padding-left: .5em;
+        padding-top: .5em;
     }
 
 </style>

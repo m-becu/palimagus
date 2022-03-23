@@ -4,6 +4,10 @@
 <main>
     <div class="side left-side">
         <p>
+            Bienvenue sur mon site ! Si vous cherchez à me contacter, je vous invite à passer par mon adresse email: <a href="mailto:contact.mbm@pm.me">contact.mbm@pm.me</a>. Bonne visite !
+        </p>
+        <hr><br>
+        <p>
             Depuis mes dix ans, j'étudie les mystères de l'informatique et de la toile, seul ou à l'école, ce qui m'a permis d'obtenir un diplôme de chef de projet digital.
         </p>
         <p>
